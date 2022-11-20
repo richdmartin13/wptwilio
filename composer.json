@@ -1,0 +1,20 @@
+{
+    "name": "richdmartin/wptwilio",
+    "description": "WPTwilio integrates with twilio to provide single- and bulk-sms sending with automatic opt-in and opt-out handling.",
+    "type": "project",
+    "require": {
+        "twilio/sdk": "^6.42"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Richdmartin\\wptwilio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Richard Martin",
+            "email": "accounts@richdmart.in"
+        }
+    ]
+}
