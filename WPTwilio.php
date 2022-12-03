@@ -588,7 +588,7 @@ function createTables() {
     $createLogs = "CREATE TABLE IF NOT EXISTS $wpt_logs (
         message_id mediumInt(9) AUTO_INCREMENT NOT NULL,
         group_id mediumInt(9),
-        message_content VARCHAR(255) NOT NULL,
+        message_content VARCHAR(512) NOT NULL,
         message_status VARCHAR(10),
         message_type VARCHAR(20),
         message_from VARCHAR(20),
@@ -602,7 +602,7 @@ function createTables() {
     $createSchedule = "CREATE TABLE IF NOT EXISTS $wpt_schedule (
         schedule_id mediumInt(9) AUTO_INCREMENT NOT NULL,
         group_id mediumInt(9) NOT NULL,
-        message_content VARCHAR(255) NOT NULL,
+        message_content VARCHAR(512) NOT NULL,
         message_status VARCHAR(10),
         send_to VARCHAR(20),
         send_date DATETIME NOT NULL,

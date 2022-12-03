@@ -227,7 +227,7 @@
             <!-- Start messaging form -->
     <form method="post" name="cleanup_options" action="" style="display: flex; flex-flow: row wrap; align-items: flex-end; justify-content: space-evenly;">
             
-            <textarea name="message" id="messageBox" rows=3 placeholder="Message" class="msgContainer2" maxLength=255></textarea>
+            <textarea name="message" id="messageBox" rows=3 placeholder="Message" class="msgContainer2" maxLength=512></textarea>
                 
                 <div class="msgAttributes">
                     <div class="attributeGroup">
